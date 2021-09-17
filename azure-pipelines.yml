@@ -45,6 +45,7 @@ steps:
       echo 'Hello world'
 
 - task: CmdLine@2
+  enabled: true
   inputs:
     script: |
       echo Write your commands here
